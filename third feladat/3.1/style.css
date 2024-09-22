@@ -1,0 +1,36 @@
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .header {
+      display: flex;
+      background-color: purple;
+      height: 50px;
+      justify-content: flex-start;
+    }
+    .header div {
+      width: 125px;
+      height: 30px;
+      align-self: center;
+      background-color: cyan;
+      margin: 5px;
+    }
+    .content {
+      display: flex;
+      flex: 1;
+    }
+    .main {
+      flex: 3;
+      background-color: yellow;
+    }
+    .side {
+      flex: 1;
+      background-color: green;
+    }
